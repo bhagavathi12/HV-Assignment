@@ -3,6 +3,7 @@ import Home from "./Home";
 import ConsentManager from "./ConsentManager";
 import './InputScreen.css'
 import { useNavigate } from "react-router-dom";
+import ConsentScreen from "./ConsentScreen";
 
 const InputScreen = () => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ const InputScreen = () => {
         <div className="consent-details-div">
             <h1>Enter Consent Details</h1>
             <div className="consent-details-inner-div">
-                <form>
+                <form onSubmit={handleClick}>
                     <div className="input">
                         <label htmlFor="customerid">Customer ID</label>
                         <input type="text" placeholder="12345" name="customerid" />
@@ -38,7 +39,7 @@ const InputScreen = () => {
                         <label htmlFor="scope" >Scope</label>
                         <input type="text" placeholder="<input>" name="scope" id="scope" />
                     </div>
-                    <button onClick={handleClick}>Request Consent</button>
+                    <button >Request Consent</button>
                 </form>
             </div>
         </div>
