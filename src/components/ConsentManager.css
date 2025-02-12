@@ -90,23 +90,21 @@
   width: 37px;
   height: 16px;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 15.73px;
   letter-spacing: 0%;
   color: #554ef1;
- /*  background-color: green; */
+  /* background-color: green; */
 }
 
 .list .Configurations .configurations-div h1 {
-  width: 98px;
+  width: 92px;
   height: 17px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.94px;
   letter-spacing: 0px;
   color: #050552cc;
-  /* background-color: red; */
-  
 }
 .list .Search .search-div h1 {
   width: 47px;
@@ -116,5 +114,4 @@
   line-height: 16.94px;
   letter-spacing: 0px;
   color: #050552cc;
-  /* background-color: red; */
 }

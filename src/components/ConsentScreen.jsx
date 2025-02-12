@@ -24,7 +24,7 @@ const ConsentScreen = () => {
           <div className="consent-screen-header">
             <div className="consent-screen-icon">
               <img src={icon1} alt="hv-icon" className="hvicon" />
-              <img src={icon2} alt="angelone" />
+              <img src={icon2} alt="angelone" className="angelone" />
             </div>
             <div className="consent-screen-heading">
               <h1>Johndoe@gmail.com</h1>

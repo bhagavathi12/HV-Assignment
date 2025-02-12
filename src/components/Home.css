@@ -8,30 +8,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* background-color: aqua; */
 }
 .HV-logo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 9px;
-    /* background-color: bisque; */
+    margin-bottom: 16px;
 }
 
 .outer-icon-div{
     width: 66px;
     height: 782px;
-    gap: 16px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* background-color: red; */
 }
 .icons-div{
     width: 66px;
     height: 414px;
-    /* background-color: yellow; */
-    gap:12px;
+    gap: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,9 +65,9 @@
 }
 .icons-div .app-icon .application-name{
     width: 60px;
-    height: 12px;
-    
+    height: 12px; 
 }
+
 .icons-div .anlaytics-icon {
     width: 66px;
     height: 46px;
@@ -120,6 +116,11 @@
     height: 58px;
     gap:2px;
     cursor: pointer;
+}
+.icons-div .consentmanager-icon img{
+    background-color:#FFFFFF33;
+    border-radius: 4.8px;
+
 }
 .icons-div .consentmanager-icon .consentmanager-name{
     width: 66px;
