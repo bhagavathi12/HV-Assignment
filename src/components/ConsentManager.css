@@ -1,0 +1,120 @@
+.consentmanager-outer-div {
+  width: 216px;
+  height: 822px;
+  min-width: 216px;
+  max-width: 216px;
+  top: 78px;
+  left: 68px;
+  border-right: 0.5px;
+  padding: 24px 12.5px 24px 12px;
+  background-color: #fafafa;
+  /* background-color: red; */
+}
+.heading {
+  width: 191.5px;
+  height: 46px;
+  padding-bottom: 22px;
+}
+.heading h1 {
+  width: 171px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: 0px;
+  color: #050552;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 191.5px;
+  height: 112px;
+}
+.list .Demo {
+  width: 191.5px;
+  height: 36px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 12.5px;
+  background: #554ef11a;
+  border: 1px solid #05055214;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list .Configurations,
+.list .Search {
+  width: 191.5px;
+  height: 36px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12.5px;
+  background: none;
+  border: none;
+ /*  background-color: yellow; */
+} 
+
+.list .Demo .demo-div {
+  width: 61px;
+  height: 20px;
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* background-color: red; */
+}
+.list .Configurations .configurations-div {
+  width: 126px;
+  height: 20px;
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: green; */
+}
+.list .Search .search-div {
+  width: 71px;
+  height: 20px;
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: purple; */
+}
+.list .Demo .demo-div h1 {
+  width: 37px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15.73px;
+  letter-spacing: 0%;
+  color: #554ef1;
+ /*  background-color: green; */
+}
+
+.list .Configurations .configurations-div h1 {
+  width: 98px;
+  height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  letter-spacing: 0px;
+  color: #050552cc;
+  /* background-color: red; */
+  
+}
+.list .Search .search-div h1 {
+  width: 47px;
+  height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  letter-spacing: 0px;
+  color: #050552cc;
+  /* background-color: red; */
+}

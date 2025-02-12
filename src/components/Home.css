@@ -1,0 +1,127 @@
+.home{
+    width: 68px;
+    height: 822px;
+    top: 78px;
+    padding: 20px 4px 20px 4px;
+    background-color: #000342;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.HV-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 9px;
+    /* background-color: bisque; */
+}
+
+.outer-icon-div{
+    width: 66px;
+    height: 782px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+.icons-div{
+    width: 66px;
+    height: 414px;
+    /* background-color: yellow; */
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons-div .home-icon{
+    width: 66px;
+    height: 54px;
+    gap: 2px;
+    cursor: pointer; 
+}
+.icons-div .home-icon .home-icon-name{
+    width: 29px;
+    height: 12px;
+}
+.font{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.1px;
+    letter-spacing: 0%;
+    color: #B2B3CA;
+    text-align: center;
+}
+.icons-div .app-icon{
+    width: 66px;
+    height: 46px;
+    gap:2px;
+    cursor: pointer;
+}
+.icons-div .app-icon .application-name{
+    width: 60px;
+    height: 12px;
+    
+}
+.icons-div .anlaytics-icon {
+    width: 66px;
+    height: 46px;
+    gap:2px;
+    cursor: pointer;
+}
+
+.icons-div .anlaytics-icon .anlaytics-name {
+    width: 44px;
+    height: 12px;
+}
+.icons-div .workflow-icon{
+    width: 66px;
+    height: 46px;
+    gap:2px;
+    cursor: pointer;
+}
+.icons-div .workflow-icon .workflow-name{
+    width: 51px;
+    height: 12px;
+} 
+
+.icons-div .Dev-Hub-icon{
+    width: 66px;
+    height: 46px;
+    gap:2px;
+    cursor: pointer;
+}
+.icons-div .Dev-Hub-icon .devhub-name{
+    width: 41px;
+    height: 12px;
+}
+.icons-div .Account-icon{
+    width: 66px;
+    height: 46px;
+    gap:2px;
+    cursor: pointer;
+}
+.icons-div .Account-icon .account-name{
+    width: 40px;
+    height: 12px;
+}
+
+.icons-div .consentmanager-icon{
+    width: 66px;
+    height: 58px;
+    gap:2px;
+    cursor: pointer;
+}
+.icons-div .consentmanager-icon .consentmanager-name{
+    width: 66px;
+    height: 24px;
+}

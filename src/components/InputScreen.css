@@ -1,0 +1,117 @@
+.input-screen-outer-div{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.consentdetails-screen{
+    width: 1157px;
+    height: 822px;
+    top: 78px;
+    left: 283px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.consent-details-div{
+    width: 567px;
+    height: 438px;
+    top: 120px;
+    left: 295px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.consent-details-div h1{
+    width: 203px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #050552CC;
+
+}
+.consent-details-inner-div{
+    width: 567px;
+    height: 384px;
+    border-radius: 8px;
+    gap: 24px;
+    border-bottom-width: 1px;
+    padding: 32px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E6E6E6;
+    box-shadow: 0px 8px 16px 0px #0000001F;
+    box-shadow: 0px 0px 2px 0px #0000001F;
+}
+.consent-details-inner-div form{
+    width: 503px;
+    height: 320px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(170, 136, 136); */
+}
+.input{
+    width: 503px;
+    height: 36px;
+    gap: 16px;
+    /* background-color:yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input label{
+    width: 180px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: -0.2%;
+    text-align: start;
+    color: #05055299;
+
+}
+
+.input input{
+    width: 317px;
+    height: 36px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 5.5px;
+    padding-right: 12px;
+    padding-bottom: 5.5px;
+    padding-left: 12px;
+    gap: 12px;
+    color:#050552CC;
+    background: #FFFFFF;
+    border: 1px solid #D9DBDD
+}
+
+button{
+    width: 503px;
+    height: 36px;
+    min-width: 64px;
+    border-radius: 6px;
+    padding-top: 11.5px;
+    padding-right: 16px;
+    padding-bottom: 11.5px;
+    padding-left: 16px;
+    background: #554EF1;
+    color: #FFFFFF;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
