@@ -17,6 +17,9 @@ const Token = () => {
                 </div>
                 <button>Validate Token</button>
             </div>
+            <div className="validation-details">
+                
+            </div>
         </div>
     </div>
   )
