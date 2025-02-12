@@ -16,7 +16,7 @@ const InputScreen = () => {
         <div className="consent-details-div">
             <h1>Enter Consent Details</h1>
             <div className="consent-details-inner-div">
-                <form action="#">
+                <form>
                     <div className="input">
                         <label htmlFor="customerid">Customer ID</label>
                         <input type="text" placeholder="12345" name="customerid" />
