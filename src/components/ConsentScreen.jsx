@@ -6,6 +6,7 @@ import icon1 from "../assets/hepervergeicon.svg";
 import icon2 from "../assets/angeloneicon.svg";
 import {useNavigate} from 'react-router-dom'
 
+
 const ConsentScreen = () => {
     const navigate = useNavigate();
     const handleAllow = () => {

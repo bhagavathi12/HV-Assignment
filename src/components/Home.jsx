@@ -8,9 +8,13 @@ import WorkFlow from '../assets/Workflow.svg';
 import DevHub from '../assets/Dev_hub.svg'
 import Account from '../assets/Account.svg'
 import consentmanager from '../assets/consentmanager.svg'
-import  {Link} from'react-router-dom'
+import  {Link, useNavigate} from'react-router-dom'
 
 const Home = () => {
+    const navigate = useNavigate();
+    const handleClicktoHome = () =>{
+        navigate('/')
+    }
 
   return (
     <div>
@@ -20,7 +24,7 @@ const Home = () => {
             </div>
             <div className="outer-icon-div">
             <div className="icons-div flex-center">
-                <div className="home-icon flex-center">
+                <div className="home-icon flex-center" onClick={handleClicktoHome}>
                     <img src={HomeLogo} alt="homelogo" />
                     <h3 className='home-icon-name font'>Home</h3>
                 </div>

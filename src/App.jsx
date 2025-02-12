@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import InputScreen from "./components/InputScreen"
 import ConsentScreen from "./components/ConsentScreen"
 import Token from "./components/Token"
+import Validationdetails from "./components/Validationdetails"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<InputScreen />} />
         <Route path="/consentscreen" element={<ConsentScreen />} />
         <Route path="/consentscreen/token" element={<Token />}/>
+        <Route path="/consentscreen/token/validate" element={<Validationdetails />}/>
       </Routes>
     </>
   )
