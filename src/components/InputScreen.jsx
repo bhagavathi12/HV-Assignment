@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 const InputScreen = () => {
     const navigate = useNavigate();
-    const handleClick = () => {
+    const handleClick = (e) => {
+        e.preventDefault()
         navigate('/consentscreen')
     }
   return <div className="input-screen-outer-div">
