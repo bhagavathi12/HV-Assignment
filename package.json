@@ -1,6 +1,6 @@
 {
   "name": "consent-manager",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://bhagavathi12.github.io/HV-Assignment",
