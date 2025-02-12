@@ -13,7 +13,7 @@ const InputScreen = () => {
     <Home />
     <ConsentManager />
     <div className="consentdetails-screen">
-        <div className="consent-details-div 1">
+        <div className="consent-details-div">
             <h1>Enter Consent Details</h1>
             <div className="consent-details-inner-div">
                 <form action="#">
